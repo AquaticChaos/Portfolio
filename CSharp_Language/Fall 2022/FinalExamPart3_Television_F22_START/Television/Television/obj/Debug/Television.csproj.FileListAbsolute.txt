@@ -1,8 +1,0 @@
-D:\Downloads\FinalExamPart3_Television_F22_START.zip\Television\Television\bin\Debug\Television.exe.config
-D:\Downloads\FinalExamPart3_Television_F22_START.zip\Television\Television\bin\Debug\Television.exe
-D:\Downloads\FinalExamPart3_Television_F22_START.zip\Television\Television\bin\Debug\Television.pdb
-D:\Downloads\FinalExamPart3_Television_F22_START.zip\Television\Television\obj\Debug\Television.csproj.AssemblyReference.cache
-D:\Downloads\FinalExamPart3_Television_F22_START.zip\Television\Television\obj\Debug\Television.csproj.SuggestedBindingRedirects.cache
-D:\Downloads\FinalExamPart3_Television_F22_START.zip\Television\Television\obj\Debug\Television.csproj.CoreCompileInputs.cache
-D:\Downloads\FinalExamPart3_Television_F22_START.zip\Television\Television\obj\Debug\Television.exe
-D:\Downloads\FinalExamPart3_Television_F22_START.zip\Television\Television\obj\Debug\Television.pdb
