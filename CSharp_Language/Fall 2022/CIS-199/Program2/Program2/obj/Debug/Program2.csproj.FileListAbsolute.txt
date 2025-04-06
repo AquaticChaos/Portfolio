@@ -1,0 +1,11 @@
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Programs\Program2\Program2\bin\Debug\Program2.exe.config
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Programs\Program2\Program2\bin\Debug\Program2.exe
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Programs\Program2\Program2\bin\Debug\Program2.pdb
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Programs\Program2\Program2\obj\Debug\Program2.csproj.AssemblyReference.cache
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Programs\Program2\Program2\obj\Debug\Program2.csproj.SuggestedBindingRedirects.cache
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Programs\Program2\Program2\obj\Debug\Program2.Prog2.resources
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Programs\Program2\Program2\obj\Debug\Program2.Properties.Resources.resources
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Programs\Program2\Program2\obj\Debug\Program2.csproj.GenerateResource.cache
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Programs\Program2\Program2\obj\Debug\Program2.csproj.CoreCompileInputs.cache
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Programs\Program2\Program2\obj\Debug\Program2.exe
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Programs\Program2\Program2\obj\Debug\Program2.pdb
