@@ -1,8 +1,0 @@
-D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab5\Lab5\bin\Debug\Lab5.exe.config
-D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab5\Lab5\bin\Debug\Lab5.exe
-D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab5\Lab5\bin\Debug\Lab5.pdb
-D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab5\Lab5\obj\Debug\Lab5.csproj.AssemblyReference.cache
-D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab5\Lab5\obj\Debug\Lab5.csproj.SuggestedBindingRedirects.cache
-D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
-D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab5\Lab5\obj\Debug\Lab5.exe
-D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab5\Lab5\obj\Debug\Lab5.pdb
