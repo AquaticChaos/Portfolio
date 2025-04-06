@@ -1,0 +1,11 @@
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab3\Lab3\bin\Debug\Lab3.exe.config
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab3\Lab3\bin\Debug\Lab3.exe
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab3\Lab3\bin\Debug\Lab3.pdb
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab3\Lab3\obj\Debug\Lab3.csproj.AssemblyReference.cache
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab3\Lab3\obj\Debug\Lab3.csproj.SuggestedBindingRedirects.cache
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab3\Lab3\obj\Debug\Lab3.Lab3.resources
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab3\Lab3\obj\Debug\Lab3.Properties.Resources.resources
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab3\Lab3\obj\Debug\Lab3.csproj.GenerateResource.cache
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab3\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab3\Lab3\obj\Debug\Lab3.exe
+D:\PC Stuff\Desktop\School Stuff\CIS-199\Labs\Lab3\Lab3\obj\Debug\Lab3.pdb
