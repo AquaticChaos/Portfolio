@@ -1,0 +1,38 @@
+--========================================================================================================================
+--========================================================FUNCTIONS=======================================================
+--========================================================================================================================
+
+--====================================================NUMBER FUNCTIONS=====================================================
+--AGGREGATE FUNCTIONS
+/*
+FUNCTION		DESCRIPTION
+COUNT			Determines the number of rows in a table
+MIN				Determines the minimum value in a column
+MAX				Determines the maximum value in a column
+SUM				Calculates the total of the values in a column
+AVG				Calculates the average value in a column
+*/
+--ADDITIONAL NUMEBR FUNCTIONS
+--ROUND - TAKES 2 ARGUMENTS, Rounds values to a specified number of decimal places
+--CEILING
+--FLOOR 
+
+
+--====================================================CHARACTER FUNCTIONS=====================================================
+--UPPER
+--LOWER
+
+
+
+--====================================================DATE FUNCTIONS==========================================================
+--DATEADD(INTERVAL, INCREMENT INT,EXPRESSION SMALLDATETIME)
+--GETDATE()
+--DATEDIFF(INTERVAL, STARTINGDATE DATETIME, ENDINGDATE DATETIME)
+
+
+
+--====================================================CONCAT FUNCTIONS=========================================================
+--CONCAT
+--+
+
+

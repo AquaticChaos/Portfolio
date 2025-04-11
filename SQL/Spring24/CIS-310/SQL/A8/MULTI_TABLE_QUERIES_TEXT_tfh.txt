@@ -1,0 +1,110 @@
+--============================== 
+--===Multi Table Queries=======
+--==============================
+
+--*****ALWYAS USE JOIN STATEMENTS TO JOIN TBALES, not book method*****
+
+--==========JOINING TABLES & Using Aliases============
+/*FIRST, VISUALIZE JOIN TYPES THROUGH PERFORMING BY HAND IN EXCEL. */
+------------------INNER JOINS----------------
+--1.List the ID, first name, and last name of each customer, 
+--together with the ID, first name, and last name of the sales rep who represents the customer.
+
+--2.List the ID, first name, and last name of each customer whose credit limit is $500, 
+--together with the ID, first name, and last name of the sales rep who represents the customer.
+
+--3.Display the ID, first name, and last name for each customer, 
+--along with the invoice number, and invoice date for each invoice. 
+--Sort the results by customer ID.
+
+--4.For every item on an invoice, list the invoice number, item ID, 
+--description, quantity ordered, quoted price, and unit price.
+
+--5.For each item on an invoice, list the item ID, quantity ordered, 
+--invoice number, invoice date, 
+--customer ID, customer first name, and customer last name, 
+--along with the last name of the sales rep who represents each customer.
+
+------------------OUTER JOINS----------------
+--Display the ID, first name, and last name for each customer, 
+--along with the invoice number, and invoice date for all invoices. 
+--Include all customers in the results. 
+--For customers that do not have invoices, omit the invoice number and invoice date.
+
+
+
+
+
+
+
+
+
+
+--==========JOIN vs. IN============
+--1.Find the description of each item included in invoice number 14233.
+
+
+--==========Subquery within Subqeury============
+--2. Find the invoice number and invoice date for each invoice 
+--that includes an item stored in location C.
+
+
+--==========IN vs. EXISTS============
+--2.Find the invoice number and invoice date for each invoice that contains item ID KH81.
+
+
+
+
+
+
+
+
+
+
+--======================Table Self-Join=======================
+--For each pair of customers located in the same city, display the customer ID, first name, last name, and city.
+
+
+
+
+
+
+--======================Set Operations=======================
+--UNION
+--INTERSECT
+--EXCEPT(DIFFERENT/MINUS)
+--PRODUCT (CARTESIAN PRODUCT)
+--1.List the ID and names of each customer that is either represented by sales rep 10 or currently has invoices on file, or both.
+--2.List the ID and names of each customer that is represented by sales rep 10 and that currently has invoices on file.
+--3.List the ID and names of each customer that is represented by sales rep 10 but that does not have invoices currently on file.
+--4.Form the product of the CUSTOMER and INVOICES tables. Display the customer ID, first name, and last name from the CUSTOMER table, along with the invoice number and invoice date from the INVOICES table.
+
+
+
+
+
+
+
+
+
+--======================ALL AND ANY=======================
+--1.Find the customer ID, full name, current balance, and sales rep ID of each customer whose balance exceeds the maximum balance of all customers represented by sales rep 10.
+--2.Find the customer ID, full name, current balance, and sales rep ID of each customer whose balance is greater than the balance of at least one customer of sales rep 10.
+
+
+
+
+
+
+
+
+
+
+
+
+--======================Comprehensive Example=======================
+/*List the customer ID, invoice number, invoice date, and invoice total 
+for each invoice with a total that exceeds $250, 
+placed by a customer in good credit standing. 
+Assign the column name INVOICE_TOTAL to the column that displays invoice totals. 
+Order the results by invoice number.*/

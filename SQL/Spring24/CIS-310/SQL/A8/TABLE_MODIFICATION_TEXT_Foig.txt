@@ -1,0 +1,90 @@
+--==================================================================================================================
+--=============================================TABLE MODIFICATIONS==================================================
+--==================================================================================================================
+
+
+--======================================REVIEW: CREATE TABLE & ADDING DATA ==========================================
+--1. Insert into the LVL1CUSTOMER table the customer ID, first name, last name, balance, credit limit, and rep ID 
+--for customers with credit limits of $250.
+
+--TABLE CREATION SYNTAX--
+/*
+CREATE TABLE tablename 
+( 
+columnname1 datatype(length) additional_properties,
+columnname2 datatype(length) additional_properties,
+.....
+columnnamen datatype(length) additional_properties
+);
+*/
+DROP TABLE IF EXISTS LVL1CUSTOMER;
+CREATE TABLE LVL1CUSTOMER
+(
+   CUST_ID CHAR(3) PRIMARY KEY,
+   FIRST_NAME VARCHAR(20),
+   LAST_NAME VARCHAR(20),
+   BALANCE DECIMAL(7,2),
+   CREDIT_LIMIT DECIMAL (7,2),
+   REP_ID CHAR(2)
+);
+--ADD DATA SYNTAX--
+--INSERT FULL DATA RECORD
+/*INSERT INTO tablename VALUES (value1,value2,value3...);*/
+INSERT INTO LVL1CUSTOMER 
+VALUES ('314','Tom','Rascal',17.25 ,250.00,'15'); 
+--INSERT PARTIAL/SPECIFIED COLUMN BY STATED ORDER
+/*INSERT INTO tablename (column1, column2, column3...) VALUES (value1,value2,value3...);*/
+INSERT INTO LVL1CUSTOMER (CUST_ID, FIRST_NAME, LAST_NAME, BALANCE, CREDIT_LIMIT, REP_ID)
+VALUES('375','Melanie','Jackson', 252.25,250.00,'05'); 
+
+SELECT * FROM LVL1CUSTOMER;
+
+
+--=================================Populate/Create Table from Existing Table===================================
+--2. Insert into the LVL2CUSTOMER table the customer ID, first name, last name, balance, credit limit, and rep ID 
+--for customers with credit limits of $500.
+------------------CREATE TABLE, THEN INSERT INTO SELECT DATA----------------
+
+
+------------------ONE STEP: DATA & TABLE----------------
+
+
+
+
+
+--=================================CHANGING EXISTING DATA IN TABLE================================
+--DATA UPDATE/CHANGE SYNTAX---
+/*
+UPDATE tablename
+	SET columnname = newvalue
+		WHERE condition;
+*/
+--3. Change the last name of customer 616 in the LVL2CUSTOMER table to “WANG”
+
+--4. For each customer in the LVL2CUSTOMER table that is 
+--represented by sales rep 15 and has a balance over $150, 
+--increase the customer’s credit limit to $550.
+
+--5. For each customer in the LVL2CUSTOMER table with a balance over $150, 
+--increase the customer’s credit limit by another $100.
+
+--=================================DELETING DATA, ROWS,OR TABLES===================================
+/*
+---DATA DELETION SYNTAX---
+UPDATE tablename
+	SET columnname = NULL
+		WHERE condition;
+
+---DATA ROW  DELETION SYNTAX---
+DELETE FROM tablename
+	WHERE condition;
+
+---DATA TABLE DELETION SYNTAX---
+DROP TABLE tablename;
+*/
+--5. Change the balance of customer 616 in the LVL2CUSTOMER table to null (empty of value).
+--6. In the LVL2CUSTOMER table, delete customer 795's record.
+--7. Remove the LVL1CUSTOMER table.
+
+
+

@@ -1,0 +1,133 @@
+--========================================================================================================================
+--==========================================VIEWS, STORED PROCEDURES & TRIGGERS===========================================
+--========================================================================================================================
+
+
+--=========================================================VIEWS==========================================================
+/*
+CREATE VIEW viewname AS
+select statement;
+
+ALTER VIEW viewname AS
+select statment;
+
+DROP VIEW viewname;
+*/
+
+--------TABLE vs VIEW----
+/*
+TABLE: 
+VIEW: 
+VIEW BENEFIT:  
+VIEW DRAWBACK: 
+*/
+
+
+/*COMMON USES of VIEW:
+1. 
+2. 
+*/
+
+--1. SHOW THE DIFFERENCE BETWEEN EACH ITEM'S AVERAGE QUOTED PRICE AND LISTED PRICE
+
+
+--2. TURN A COMPLEX QUERY INTO A VIEW FOR EASE OF USE: DAILYREPORT_GOODCUSTINVS
+--******NOTE ERROR MESSAGE**********
+
+--Start with our comprehensive example.
+/*List the customer ID, invoice number, invoice date, and invoice total 
+for each invoice with a total that exceeds $250, 
+placed by a customer in good credit standing. 
+Assign the column name INVOICE_TOTAL to the column that displays invoice totals. 
+Order the results by invoice number.*/
+--INVOICE TOTAL = QUANTITY X QUOTED PRICE
+-- NEED GROUP BY, HAVING, ORDER BY
+--BALANCE < CREDIT_LIMIT - SUBQUERY
+
+SELECT CUST_ID, I.INVOICE_NUM, INVOICE_DATE, SUM(QUANTITY * QUOTED_PRICE) AS INVOICE_TOTAL
+	FROM INVOICES I INNER JOIN INVOICE_LINE IL ON I.INVOICE_NUM = IL.INVOICE_NUM
+		WHERE CUST_ID IN (SELECT CUST_ID
+							FROM CUSTOMER
+								WHERE CREDIT_LIMIT > BALANCE)
+			GROUP BY CUST_ID, I.INVOICE_NUM, INVOICE_DATE
+				HAVING SUM(QUANTITY * QUOTED_PRICE) > 250
+					ORDER BY I.INVOICE_NUM;
+
+
+--BASED ON ERROR MESSAGE, ONE ADDITIONAL LIMITATION ON VIEW: 
+--HOW TO WORK AROUND IT? 
+
+
+--====================================================STORED PROCEDURE====================================================
+
+---------VIEW VS STORED PROCEDURE--------
+/*
+SIMILARITIES: 
+DIFFERENCES: 
+
+*/
+
+/*
+CREATE PROCEDURE procedure_name	@variable variable_data_type (length) = defaultvalue
+AS
+	BEGIN
+		body/query
+	END
+*/
+--1. Simple Stored Procedure: For given REP_ID, display list of CUST_ID and CUST_NAME (First and Last Name)
+
+--2. Update Procedure: For given CUST_ID, change the customer last name to given new last name
+/*
+UPDATE tablename
+	SET columnname = newvalue
+		WHERE condition;
+*/
+--3. Delete Procedure: Delete all relevant records for given invoice number.
+
+--DELETE FROM tablename
+--	WHERE condition;
+--=============================================================TRIGGERS====================================================
+/*
+TRIGGER VS STORED PROCEDURE
+SIMILARITIES: 
+DIFFERENCES: 
+*/
+
+/*
+CREATE TRIGGER triggername
+ON triggerstarttable
+AFTER INSERT/UPADTE/DELETE
+
+AS BEGIN
+		body/query
+			--WHEN INSERT/UPDATE/DELETE PROCEDURE HAPPENS
+			--SQL CREATES TEMP TABLE THAT HOLDS THE "INSERTED" OR "DELETED" DATA 
+			--CAN DECLARE NEW VARIABLES WITHIN BODY TO HOLD THESE DATA IN THE TEMP SYSTEM TABLES
+			DECLARE @variablename datatype (length)
+			SELECT @variablename = (SELECT attribute FROM INSERTED/DELETED)
+
+
+	END;
+
+ALTER AND DROP SIMILAR TO TABLE, VIEW AND STORED PROCEDURE OBJECTS.
+*/
+
+SELECT * FROM ITEM;
+SELECT * FROM INVOICE_LINE;
+
+INSERT INTO INVOICE_LINE VALUES('14219','FM23',41,24.95)
+
+DELETE FROM INVOICE_LINE 
+	WHERE INVOICE_NUM = '14219' AND ITEM_ID ='FM23';
+
+--1. CREATE A TRIGGER ADD_INVOICE_LINE. 
+--WHEN NEW INVOICE LINE IS ADDED, DEDUCT THE ON_HAND QUANTITY FOR CORRESPONDING ITEM FROM ITEM TABLE.
+
+
+--2. CREATE A TRIGGER DEL_INVOICE_LINE. OPPOSITE OF ADD_INVOICE_LINE
+--WHEN NEW INVOICE LINE IS DELETED, ADD THE ON_HAND QUANTITY FOR CORRESPONDING ITEM BACK TO ITEM TABLE.
+
+--3. CREATE A TRIGGER UPD_INVOICE_LINE. SIMILAR TO ABOVE REQUEST
+--NOTE THAT UPDATE IS A DELETION OF OLD RECORD AND A INSERTION OF NEW RECORD WITHIN ONE ACTION.
+--THIS TRIGGER WILL NEED 2 PARAMETERS, TO ACCOUNT FOR THE CHANGES FROM BOTH DELETED, AND INSERTED SYSTEM TABLES.
+

@@ -1,0 +1,23 @@
+--============================== 
+--===Single Table Queries=======
+--==============================
+
+SELECT		COLUMNS, EXPRESSIONS
+FROM		TABLENAME
+WHERE		CONDITIONS
+GROUP BY	COLUMNS
+HAVING		CONDITIONS FOR GROUPS
+ORDER BY	SORT KEY COLUMNS
+
+
+--SQL Basic - SIMPLE SELECT STATEMENT------------
+
+------------------REQUIRED CLAUSES----------------
+
+------------------OPTIONAL CLAUSES----------------
+
+
+--==========SELECT & FROM CLAUSE============
+--1. Show/Select all the data from the CUSTOMER table
+--RETRIEVE ALL COLUMNS FROM TABLE USING WILDCARD CHARACTER
+
