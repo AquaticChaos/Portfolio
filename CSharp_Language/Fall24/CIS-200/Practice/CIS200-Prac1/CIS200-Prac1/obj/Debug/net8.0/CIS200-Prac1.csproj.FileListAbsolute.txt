@@ -1,0 +1,14 @@
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Practice\CIS200-Prac1\CIS200-Prac1\bin\Debug\net8.0\CIS200-Prac1.exe
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Practice\CIS200-Prac1\CIS200-Prac1\bin\Debug\net8.0\CIS200-Prac1.deps.json
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Practice\CIS200-Prac1\CIS200-Prac1\bin\Debug\net8.0\CIS200-Prac1.runtimeconfig.json
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Practice\CIS200-Prac1\CIS200-Prac1\bin\Debug\net8.0\CIS200-Prac1.dll
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Practice\CIS200-Prac1\CIS200-Prac1\bin\Debug\net8.0\CIS200-Prac1.pdb
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Practice\CIS200-Prac1\CIS200-Prac1\obj\Debug\net8.0\CIS200-Prac1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Practice\CIS200-Prac1\CIS200-Prac1\obj\Debug\net8.0\CIS200-Prac1.AssemblyInfoInputs.cache
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Practice\CIS200-Prac1\CIS200-Prac1\obj\Debug\net8.0\CIS200-Prac1.AssemblyInfo.cs
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Practice\CIS200-Prac1\CIS200-Prac1\obj\Debug\net8.0\CIS200-Prac1.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Practice\CIS200-Prac1\CIS200-Prac1\obj\Debug\net8.0\CIS200-Prac1.dll
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Practice\CIS200-Prac1\CIS200-Prac1\obj\Debug\net8.0\refint\CIS200-Prac1.dll
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Practice\CIS200-Prac1\CIS200-Prac1\obj\Debug\net8.0\CIS200-Prac1.pdb
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Practice\CIS200-Prac1\CIS200-Prac1\obj\Debug\net8.0\CIS200-Prac1.genruntimeconfig.cache
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Practice\CIS200-Prac1\CIS200-Prac1\obj\Debug\net8.0\ref\CIS200-Prac1.dll

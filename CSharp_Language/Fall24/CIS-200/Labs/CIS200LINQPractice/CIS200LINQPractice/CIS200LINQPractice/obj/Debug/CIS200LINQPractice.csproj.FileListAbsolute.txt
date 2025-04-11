@@ -1,0 +1,14 @@
+C:\Users\kac67\Documents\School\200 F23\Source\CIS200LINQPractice\CIS200LINQPractice\obj\Debug\CIS200LINQPractice.csprojAssemblyReference.cache
+C:\Users\kac67\Documents\School\200 F23\Source\CIS200LINQPractice\CIS200LINQPractice\obj\Debug\CIS200LINQPractice.csproj.CoreCompileInputs.cache
+C:\Users\kac67\Documents\School\200 F23\Source\CIS200LINQPractice\CIS200LINQPractice\bin\Debug\CIS200LINQPractice.exe.config
+C:\Users\kac67\Documents\School\200 F23\Source\CIS200LINQPractice\CIS200LINQPractice\bin\Debug\CIS200LINQPractice.exe
+C:\Users\kac67\Documents\School\200 F23\Source\CIS200LINQPractice\CIS200LINQPractice\bin\Debug\CIS200LINQPractice.pdb
+C:\Users\kac67\Documents\School\200 F23\Source\CIS200LINQPractice\CIS200LINQPractice\obj\Debug\CIS200LINQPractice.exe
+C:\Users\kac67\Documents\School\200 F23\Source\CIS200LINQPractice\CIS200LINQPractice\obj\Debug\CIS200LINQPractice.pdb
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Labs\CIS200LINQPractice\CIS200LINQPractice\CIS200LINQPractice\obj\Debug\CIS200LINQPractice.csproj.AssemblyReference.cache
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Labs\CIS200LINQPractice\CIS200LINQPractice\CIS200LINQPractice\obj\Debug\CIS200LINQPractice.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Labs\CIS200LINQPractice\CIS200LINQPractice\CIS200LINQPractice\obj\Debug\CIS200LINQPractice.exe
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Labs\CIS200LINQPractice\CIS200LINQPractice\CIS200LINQPractice\obj\Debug\CIS200LINQPractice.pdb
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Labs\CIS200LINQPractice\CIS200LINQPractice\CIS200LINQPractice\bin\Debug\CIS200LINQPractice.exe.config
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Labs\CIS200LINQPractice\CIS200LINQPractice\CIS200LINQPractice\bin\Debug\CIS200LINQPractice.exe
+C:\Users\Jacob\Desktop\School Classes\Fall 2024\CIS-200 (Davidson 304 2)\Labs\CIS200LINQPractice\CIS200LINQPractice\CIS200LINQPractice\bin\Debug\CIS200LINQPractice.pdb
